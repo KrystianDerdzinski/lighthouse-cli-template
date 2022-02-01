@@ -1,0 +1,22 @@
+{
+  "name": "eclighthousetemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "giacomodesktop": "lighthouse https:/giacomo.pl/ --preset desktop",
+    "giacomo": "lighthouse https://giacomo.pl/",
+    "giacomoTowarDesktop": "lighthouse https://giacomo.pl/glowna/kurtka-andrea-kuts000153.html?ln=NOWO%C5%9ACI%20mody%20m%C4%99skiej#sub-KU_KUTS000153_L --preset desktop",
+    "giacomoTowar": "lighthouse https://giacomo.pl/glowna/kurtka-andrea-kuts000153.html?ln=NOWO%C5%9ACI%20mody%20m%C4%99skiej#sub-KU_KUTS000153_L",
+    "giacomoTowarPreconnectTest": "lighthouse https://giacomo.pl/okrycia-wierzchnie/null-sk_skts000076.html?ln=MODA%20M%C4%98SKA%20Giacomo%20Conti#sub-SK_SKTS000076_L",
+    "giacomoTowarLocal": "lighthouse http://localhost:8080/do/item/MXGS000253/Zestaw-Casual-MXGS000253",
+    "giacomoKategoriaDesktop": "lighthouse https://giacomo.pl/koszule.html --preset desktop",
+    "giacomoKategoria": "lighthouse https://giacomo.pl/koszule.html"
+  },
+  "keywords": ["lighthouse", "performance"],
+  "author": "Krystian Derdziński",
+  "license": "ISC",
+  "dependencies": {
+    "lighthouse": "^9.3.1"
+  }
+}
